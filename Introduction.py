@@ -1,0 +1,5 @@
+print("My name is Neev Shankar.")
+print("Currently I am pursuing Bachleor in Engineering in Computer Engineering.")
+print("My age is 18")
+print("I ma interested development through coding.")
+print("I live in Surat.")
