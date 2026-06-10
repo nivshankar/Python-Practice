@@ -20,7 +20,8 @@ print(current_datetime)
 
 #string format time method can be used to display time
 #first the variable should be declared for date and time
-#now=current_datetime.strftime("time : %H:%M:%S date: %d-%m-%Y")
+now=current_datetime.strftime("time : %H:%M:%S date: %d-%m-%Y")
+print(now)
 year=current_datetime.strftime("%Y")
 year=int(year)
 birth_year=int(input("enter birth year: "))
