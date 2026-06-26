@@ -1,0 +1,16 @@
+#f=open("Text File.txt","x")
+#f.close()
+#f=open('Lab Work//Text File.txt','w')
+#f.write(f'{input('Enter data: ')}\n')
+#f.close()
+#f=open('Lab Work//Text File.txt','a')
+#f.write(f'{input('Enter data: ')}\n')
+#f.close()
+#f=open('Lab Work//Text File.txt','r')
+#print(f.readline())
+#for lines in f.readlines():
+#    print(lines)
+#print(f.read())
+#f.close()
+with open('Lab Work/Text File.txt','r') as file:
+    print(file.read())
